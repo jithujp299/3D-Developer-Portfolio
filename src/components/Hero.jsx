@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion'
 import {styles} from '../styles'
 import {ComputersCanvas} from './canvas'
-//import { section } from 'framer-motion/client'
+
 
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
         <a href='#about'>
           <div className='w-[29px] h-[56px] rounded-3xl border-4
           border-secondary flex justify-center items-start p-1'>
-            <motion.dev animate={{y:[0,24,0]}}
+            <motion.div animate={{y:[0,24,0]}}
             transition={{
               duration:1.5,
               repeat:Infinity,
