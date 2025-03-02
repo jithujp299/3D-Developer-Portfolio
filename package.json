@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install --legacy-peer-deps && react-scripts build",
+    "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm install --legacy-peer-deps && npm run build",
+    "predeploy": "npm install --legacy-peer-deps && vite build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
